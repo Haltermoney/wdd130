@@ -26,6 +26,10 @@ p {
 }
 
 main {
+    max-width: 800px;
+}
+
+aside {
     max-width: 25rem;
     margin: 3rem;
     border: 3px dotted rgb(0 0 0 / 0.5);
@@ -35,7 +39,7 @@ main {
     text-align: center;
 }
 
-aside {
+aside img {
     width: 200px;
     height: auto;
 }
