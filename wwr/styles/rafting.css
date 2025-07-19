@@ -37,6 +37,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    font-family: var(--body-font);
 }
 
 .socialmedia a {
