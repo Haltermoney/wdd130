@@ -209,7 +209,7 @@ footer p {
 
 .map {
     grid-column: 2/3;
-    width: 2fr;
+    width: 100%;
 }
 
 .guides {
