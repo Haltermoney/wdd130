@@ -308,9 +308,11 @@ button {
     width: 25%;
     height: 2rem;
     grid-column: 1/3;
+    font-family: var(--heading-font);
 }
 
-button:hover {
+button:hover,
+.booking .button:hover {
     background-color: var(--secondary-color);
 }
 
@@ -338,6 +340,7 @@ button:hover {
     grid-column: 1/3;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 1em;
 }
 
 .booking h2 {
@@ -351,12 +354,74 @@ button:hover {
     grid-column: 1/3;
 }
 
-.booking button {
+.booking .button {
     background-color: var(--primary-color);
-    margin: 1rem auto;
+    color: #000;
+    margin: 0 auto;
     border: none;
     border-radius: 3rem;
     width: 25%;
     height: 2rem;
     grid-column: 1/3;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-weight: 200;
+    padding: .4rem;
+}
+
+.trips {
+    background-color: var(--secondary-color);
+}
+
+.trips01 figcaption,
+.trips02 figcaption,
+.trips03 figcaption {
+    padding: 2em;
+    text-align: center;
+}
+
+.trips01,
+.trips02,
+.trips03 {
+    display: flex;
+    padding: 1em;
+}
+
+.trips01,
+.trips03 {
+    flex-direction: row-reverse;
+}
+
+.trips img {
+    width: 45%;
+
+}
+
+.triptable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1em;
+    width: 65%;
+    height: 40vh;
+    margin: 0 auto;
+}
+
+.availabletrips {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.availabletrips td,
+.availabletrips th {
+    border: 1px solid gray;
+    padding: 8px 10px;
+}
+
+.availabletrips caption {
+    font-family: var(--heading-font);
+    font-weight: bold;
 }
