@@ -104,7 +104,7 @@ header nav {
 nav a {
     padding: .25rem;
     font-family: var(--heading-font);
-    color: #fff;
+    color: #000;
 }
 
 nav a:hover {
